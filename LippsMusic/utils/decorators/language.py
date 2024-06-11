@@ -2,6 +2,7 @@ from strings import get_string
 
 from LippsMusic import app
 from LippsMusic.misc import SUDOERS
+from config import SUPPORT_CHAT
 from LippsMusic.utils.database import get_lang, is_maintenance
 
 
