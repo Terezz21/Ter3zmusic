@@ -15,7 +15,7 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN",None) 
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Lipps Music Bot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Terez Mudic")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -27,8 +27,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @RoseBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "2101893551"))
-
+OWNER_ID = int(getenv("OWNER_ID", "1998605919"))
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
@@ -44,8 +43,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ThinkGrowMore")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ThinkGrowMore")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Terezmusic")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Terezgroup")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -87,7 +86,7 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/8bdea9d933e1a0bb08035.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/6558a232a6cdb5ec5ec0a.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
