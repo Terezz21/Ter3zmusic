@@ -36,9 +36,9 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Lippsxd/LippsMusicBot",
+    "https://github.com/Terezz21/Ter3zmusic",
 )
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "lippsxd")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Terezz21")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
